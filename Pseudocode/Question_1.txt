@@ -1,0 +1,23 @@
+PrimeNumberChecker
+
+Start
+
+Input: N
+
+ Read N
+ Set isPrime = True
+
+ For i = 2 to N/2
+    if N MOD i = 0
+      isPrime = False
+       Break
+  End if
+ End for
+ 
+ If isPrime = True
+  Print "Prime"
+ Else
+  Print "Not Prime"
+ End if
+ 
+End 
